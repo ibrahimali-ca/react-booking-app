@@ -17,3 +17,8 @@
 .logo {
   font-weight: bold;
 }
+
+.navButton {
+  margin-left: 50px;
+  border: none;
+}

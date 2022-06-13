@@ -6,8 +6,8 @@ const Navbar = () => {
       <div className="navContainer">
         <span className="logo">reactbooking</span>
         <div className="navItems">
-          <button className="NavButton">Register</button>
-          <button className="NavButton">Login</button>
+          <button className="navButton">Register</button>
+          <button className="navButton">Login</button>
         </div>
       </div>
     </div>
