@@ -1,7 +1,17 @@
 import "./navbar.css";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <div className="navbar">
+      <div className="navContainer">
+        <span className="logo">reactbooking</span>
+        <div className="navItems">
+          <button className="NavButton">Register</button>
+          <button className="NavButton">Login</button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;
