@@ -12,7 +12,7 @@ const Header = () => {
     <div className="header">
       <div className="headerContainer">
         <div className="headerList">
-          <div className="headerListItem">
+          <div className="headerListItem active">
             <FontAwesomeIcon icon={faBed} />
             <span>Stays</span>
           </div>
@@ -33,6 +33,13 @@ const Header = () => {
             <span>Taxis</span>
           </div>
         </div>
+        <h1 className="headerTitle">A lifetime of discounts? It's Genius.</h1>
+        <p className="headerDesc">
+          Get rewarded for your travels - unluck instant savings of 10% or more
+          with a free reactbooking account
+        </p>
+        <button className="headerBtn">Sign In / Register</button>
+        <div className="headerSearch"></div>
       </div>
     </div>
   );
