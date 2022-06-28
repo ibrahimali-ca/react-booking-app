@@ -24,7 +24,7 @@ const Header = () => {
       key: "selection"
     }
   ]);
-  const [openOPtions, setOptionOption] = useState(false);
+  const [openOptions, setOpenOptions] = useState(false);
   const [options, setOptions] = useState({
     adult: 1,
     children: 0,
